@@ -11,7 +11,6 @@ function solveEquation(a, b, c) {
   }
 }
 
-"use strict";
 function calculateTotalMortgage(percent, contribution, amount, countMonths) {
     const p = (percent / 100)/12;
     const creditBody = amount - contribution;
