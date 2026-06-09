@@ -35,7 +35,7 @@ function getArrayParams(...arr) {
 
 function summElementsWorker(...arr) {
 let sum = 0;
-const aver = arr.reduce((sum, current) => sum + current);
+const aver = arr.reduce((sum, current) => sum + current, 0);
 return aver;
 }
 
